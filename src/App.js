@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import arrayMove from 'array-move';
 import { Feed } from "./Feed"
 
-
 function App() {
   const [posts, setPosts] = useState([])
   useEffect(() => {
